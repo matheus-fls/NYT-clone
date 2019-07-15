@@ -1,30 +1,62 @@
 .nav-bar{
 	position: fixed;
-	width: 100%;
+    width: 100%;
+    height: 42px;
 	top: 0px;
-	background-color: lightgray;
-	box-sizing: border-box;
+	background-color: #fff;
+    border: 1px;
+    border-color: lightgray;
+    border-style: solid;
+    box-sizing: border-box;
+    padding-top: 10px; 
 }
 
 .left-elements{
 	position: absolute;
 	left: 0;
-	right: 70%
-	background-color: red;
+	right: 70%;
+    height: 100%;
+    padding-left: 30px;
+}
+
+.left-elements a{
+    font-family: helvetica, arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 14.25px;
+}
+
+.left-elements a:hover{
+    text-decoration: underline;
+}
+
+.left-elements button{
+    margin: 0 10px;
+    background-color: #fff;
+    border: 0;
+}
+
+.left-elements button:hover{
+    background-color: rgb(247, 247, 247);
+    cursor: pointer;
 }
 
 .right-elements{
-	position: absolute;
+    position: absolute;
+    height: 100%;
 	right: 0;
 	left: 70%;
-	background-color: blue;
+    text-align: right;
+    padding-right: 30px;
 }
 
 .center-elements{
-	position: absolute;
+    position: absolute;
+    height: 100%;
 	left: 30%;
 	right: 30%;
-	background-color: green;
+    text-align: center;
 }
 /*
 .left-elements{
