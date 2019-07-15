@@ -1,0 +1,54 @@
+.nav-bar{
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	background-color: lightgray;
+	box-sizing: border-box;
+}
+
+.left-elements{
+	position: absolute;
+	left: 0;
+	right: 70%
+	background-color: red;
+}
+
+.right-elements{
+	position: absolute;
+	right: 0;
+	left: 70%;
+	background-color: blue;
+}
+
+.center-elements{
+	position: absolute;
+	left: 30%;
+	right: 30%;
+	background-color: green;
+}
+/*
+.left-elements{
+	float: left;
+/*	position: relative;
+	left: 0px;*/
+	/*
+	display: inline-block;
+	width: 200px;
+	background-color: red;
+}
+
+.center-elements{
+
+	text-align: center;
+	display: inline-block;
+}
+
+.right-elements{
+		float: right;
+	display: inline-block;
+	/*position: absolute;*/
+	/*right: 0px;*/
+	/*
+	width: 200px;
+	background-color: blue;
+}*/
