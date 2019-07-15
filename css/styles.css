@@ -8,15 +8,16 @@
     border-color: lightgray;
     border-style: solid;
     box-sizing: border-box;
-    padding-top: 10px; 
 }
 
 .left-elements{
 	position: absolute;
+    box-sizing: border-box;
 	left: 0;
 	right: 70%;
     height: 100%;
     padding-left: 30px;
+    padding-top: 10px; 
 }
 
 .left-elements a{
@@ -42,45 +43,46 @@
     cursor: pointer;
 }
 
-.right-elements{
-    position: absolute;
-    height: 100%;
-	right: 0;
-	left: 70%;
-    text-align: right;
-    padding-right: 30px;
-}
-
 .center-elements{
+    box-sizing: border-box;
     position: absolute;
     height: 100%;
 	left: 30%;
 	right: 30%;
     text-align: center;
-}
-/*
-.left-elements{
-	float: left;
-/*	position: relative;
-	left: 0px;*/
-	/*
-	display: inline-block;
-	width: 200px;
-	background-color: red;
+    padding-top: 10px; 
 }
 
-.center-elements{
-
-	text-align: center;
-	display: inline-block;
+.center-elements img{
+    height: 25px;
 }
 
 .right-elements{
-		float: right;
-	display: inline-block;
-	/*position: absolute;*/
-	/*right: 0px;*/
-	/*
-	width: 200px;
-	background-color: blue;
-}*/
+    box-sizing: border-box;
+    position: absolute;
+    height: 100%;
+    right: 0;
+    left: 70%;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 2px;
+}
+
+.right-elements button{
+    height: 35px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bolder;
+    background-color: rgb(98,136,165);
+    border-style: solid;
+    border: 1px;
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.right-elements button:hover{
+    background-color: rgb(50,104,145);
+}
