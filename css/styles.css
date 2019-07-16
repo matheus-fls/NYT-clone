@@ -120,3 +120,11 @@
     margin: 10px 0;
     line-height: 1.25rem;
 }
+
+.img-description p{
+    color: #666;
+}
+
+.img-description span{
+    color: grey;
+}
