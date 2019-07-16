@@ -20,6 +20,11 @@
     padding-top: 10px; 
 }
 
+.buttons-div button{
+    height: 30px;
+    width: 30px;
+}
+
 .left-elements a{
     font-family: helvetica, arial, sans-serif;
     text-decoration: none;
@@ -162,11 +167,6 @@
 
 }
 
-.buttons-div button{
-    height: 30px;
-    width: 30px;
-}
-
 .btn-style1{
     padding: 5px;
     border-radius: 50%;
@@ -186,9 +186,17 @@
     font-size: 20px;
 }
 
-.author-div h4, .author-div a{
+.author-div h4{
     font-size: 15px;
-    font-family: helvetica, arial;
+    font-family: helvetica, arial, sans-serif;
+    letter-spacing: 0.02em;
+    color: black;
+    text-decoration-color: #ccc;
+}
+
+.author-div a{
+    font-size: 15px;
+    font-family: helvetica, arial, sans-serif;
     letter-spacing: 0.02em;
     color: black;
     text-decoration-color: #ccc;
@@ -200,12 +208,12 @@
 
 .date-div p{
     font-size: 14px;
-    font-family: helvetica, arial;
+    font-family: helvetica, arial, sans-serif;
     letter-spacing: 0.02em;
 }
 
 .text{
-    font-family: georgia, "times new roman";
+    font-family: georgia, "times new roman", serif;
     line-height: 30px;
     font-size: 20px;
 }
