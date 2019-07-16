@@ -188,9 +188,14 @@
 
 .author-div h4, .author-div a{
     font-size: 15px;
-    text-decoration: none;
     font-family: helvetica, arial;
     letter-spacing: 0.02em;
+    color: black;
+    text-decoration-color: #ccc;
+}
+
+.author-div a:hover{
+    text-decoration: none;
 }
 
 .date-div p{
