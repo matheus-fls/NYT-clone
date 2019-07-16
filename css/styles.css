@@ -20,6 +20,11 @@
     padding-top: 10px; 
 }
 
+.buttons-div button{
+    height: 30px;
+    width: 30px;
+}
+
 .left-elements a{
     font-family: helvetica, arial, sans-serif;
     text-decoration: none;
@@ -127,4 +132,93 @@
 
 .img-description span{
     color: grey;
+}
+
+.main-upper-section{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-upper-division{
+    width: 600px;
+    margin-left: 300px;
+}
+
+.date-and-icons{
+    height: 34px;
+    width: 100%;
+}
+
+.date-div{
+    display: inline-block;
+    position: relative;
+    width: 49%;
+    left: 0px;
+}
+
+.buttons-div{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    right: 0px;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 0;
+
+}
+
+.btn-style1{
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #eeeeee;
+    border-style: solid;
+    border: 1px;
+}
+
+.btn-style2{
+    background-color: white;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.btn-style2 i{
+    font-size: 20px;
+}
+
+.author-div h4{
+    font-size: 15px;
+    font-family: helvetica, arial, sans-serif;
+    letter-spacing: 0.02em;
+    color: black;
+    text-decoration-color: #ccc;
+}
+
+.author-div a{
+    font-size: 15px;
+    font-family: helvetica, arial, sans-serif;
+    letter-spacing: 0.02em;
+    color: black;
+    text-decoration-color: #ccc;
+}
+
+.author-div a:hover{
+    text-decoration: none;
+}
+
+.date-div p{
+    font-size: 14px;
+    font-family: helvetica, arial, sans-serif;
+    letter-spacing: 0.02em;
+}
+
+.text{
+    font-family: georgia, "times new roman", serif;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.text p{
+    margin: 15px 0;
+    color: #333333;
 }
