@@ -247,3 +247,14 @@
 .grid-image img{
     width: 100%;
 }
+
+.grid-element{
+    text-align: justify;
+    width: 216px;
+    display: inline-block;
+}
+
+.grid-element p{
+    position: relative;
+    top: 0;
+}
