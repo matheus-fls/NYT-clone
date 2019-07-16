@@ -128,3 +128,14 @@
 .img-description span{
     color: grey;
 }
+
+.main-upper-section{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.main-upper-division{
+    width: 600px;
+    margin-left: 300px;
+}
+
