@@ -277,18 +277,19 @@ b{
 }
 
 .side-div{
-    display: inline-block;
     float: right;
     position: relative;
     top: 0px;
     height: 100%;
-    width: 180px;
-    margin-left: 115px;
+    width: 210px;
+    margin-left: 85px;
 }
 
-.signup.cont{
+.signup-cont{
     position: relative;
-    top: 50px;
+    top: 0;
+    width: 180px;
+    margin-left: 30px;
 }
 
 .signup-cont h3{
@@ -316,4 +317,22 @@ b{
     border: 1px;
     border-color: rgb(98, 136, 165);
     border-radius: 4px;
+}
+
+.book-container{
+    width: 100%;
+}
+
+.book-img{
+    display: inline-block;
+    width: 75px;
+}
+
+.book-img img{
+    width: 100%;
+}
+
+.book-txt{
+    width: 120px;
+    display: inline-block;
 }
