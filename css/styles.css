@@ -26,6 +26,10 @@
     width: 30px;
 }
 
+button{
+    cursor: pointer;
+}
+
 .left-elements a{
     font-family: helvetica, arial, sans-serif;
     text-decoration: none;
@@ -436,6 +440,50 @@ b{
     color: #888;   
 }
 
+.pre-btn-txt p{
+    font-family: georgia, "times new roman", times, serif;
+    font-size: 0.75rem;    
+    line-height: 1.125rem;
+    color: #888;  
+}
+
+.pre-btn-txt a{
+    text-decoration: none;
+    color: #888;  
+}
+
+.pre-btn-txt a:hover{
+    text-decoration: underline;
+}
+
+.bottom-buttons-container{
+    width: 100%;
+    margin: 20px 0;
+    
+}
+
+.bottom-buttons{
+    float: right;
+    width: 200px;
+}
+
+.bottom-buttons::after{
+    clear: right;
+}
+
+.comments-btn{
+    width: 330px;
+    height: 35px;
+    background-color: rgb(98, 136, 165);
+    color: white;
+    font-weight: 700; 
+    border: 1px;
+    border-color: rgb(98, 136, 165);
+    border-radius: 4px;
+    display: inline-block;
+}
+
+
 .main-footer{
     height: 40px;
     width: 100%;
@@ -501,3 +549,4 @@ b{
     margin-left: 20px;
     font-size: 20px;
 }
+
