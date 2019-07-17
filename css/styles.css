@@ -222,3 +222,55 @@
     margin: 15px 0;
     color: #333333;
 }
+
+.main-section-grid{
+    width: 945px;
+    height: 575px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+h3{
+    margin-bottom: 5px;
+}
+
+.grid-image{
+   margin-top: 10px;
+   font-size: 12px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #000000;
+   line-height: 17px;
+   
+}
+
+.grid-image img{
+    width: 100%;
+}
+
+.grid-element{
+    width: 216px;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+b{
+    font-weight: 700;
+    display: inline;
+}
+
+.element-2, .element-3, .element-4{
+    margin-left: 21px;
+}
+
+.row-1 .element-3{
+    position: relative;
+    top: -16px;
+}
+
+.row-2 .element-2{
+    position: relative;
+    top: 16px;
+}
