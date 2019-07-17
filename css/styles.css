@@ -8,6 +8,7 @@
     border-color: lightgray;
     border-style: solid;
     box-sizing: border-box;
+    z-index: 10;
 }
 
 .left-elements{
@@ -285,6 +286,10 @@ b{
     margin-left: 85px;
 }
 
+.side-div:after{
+    clear: right;
+}
+
 .signup-cont{
     position: relative;
     top: 0;
@@ -319,6 +324,18 @@ b{
     border-radius: 4px;
 }
 
+.editors-div{
+    margin-top: 100px;
+}
+
+.editors-div h4{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 14px;
+    margin: 15px 0; 
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgb(226, 226, 226); 
+}
+
 .book-container{
     width: 100%;
 }
@@ -335,4 +352,19 @@ b{
 .book-txt{
     width: 120px;
     display: inline-block;
+    position: relative;
+    top: -20px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 7px;
+}
+
+.book-txt a{
+    text-decoration: none;
+    color: black;
+}
+
+.book-txt a:hover{
+    text-decoration: underline;
 }
