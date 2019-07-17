@@ -142,6 +142,7 @@
 .main-upper-division{
     width: 600px;
     margin-left: 300px;
+    display: inline-block;
 }
 
 .date-and-icons{
@@ -273,4 +274,46 @@ b{
 .row-2 .element-2{
     position: relative;
     top: 16px;
+}
+
+.side-div{
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: 0px;
+    height: 100%;
+    width: 180px;
+    margin-left: 115px;
+}
+
+.signup.cont{
+    position: relative;
+    top: 50px;
+}
+
+.signup-cont h3{
+    font-size: 1.125rem;
+    line-height: 1.5rem;    
+    font-family: helvetica, arial, sans-serif;
+}
+
+.signup-cont p{
+    font-family: helvetica, arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 0px;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    color: rgb(102, 102, 102);
+}
+
+.signup-cont button{
+    width: 100%;
+    height: 35px;
+    background-color: rgb(98, 136, 165);
+    color: white;
+    font-weight: 700; 
+    border: 1px;
+    border-color: rgb(98, 136, 165);
+    border-radius: 4px;
 }
