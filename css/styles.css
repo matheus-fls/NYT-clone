@@ -2,7 +2,7 @@
 	position: fixed;
     width: 100%;
     height: 42px;
-	top: 0px;
+	top: 0;
 	background-color: #fff;
     border-bottom: 1px;
     border-color: lightgray;
@@ -118,7 +118,7 @@ button{
 
 }
 
-.title h1{
+h1 {
     font-family: georgia,'times new roman',times,serif;
     font-weight: 500;
     font-size: 2.5rem;
@@ -159,14 +159,14 @@ button{
     display: inline-block;
     position: relative;
     width: 49%;
-    left: 0px;
+    left: 0;
 }
 
 .buttons-div{
     display: inline-block;
     position: relative;
     width: 50%;
-    right: 0px;
+    right: 0;
     text-align: right;
     margin-left: auto;
     margin-right: 0;
@@ -183,16 +183,16 @@ button{
 
 .btn-style2{
     background-color: white;
-    border: 0px;
-    padding: 0px;
-    margin: 0px;
+    border: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .btn-style2 i{
     font-size: 20px;
 }
 
-.author-div h4{
+h4{
     font-size: 15px;
     font-family: helvetica, arial, sans-serif;
     letter-spacing: 0.02em;
@@ -238,6 +238,9 @@ button{
 
 h3{
     margin-bottom: 5px;
+    font-size: 1.125rem;
+    line-height: 1.5rem;    
+    font-family: helvetica, arial, sans-serif;
 }
 
 .grid-image{
@@ -285,7 +288,7 @@ b{
 .side-div{
     float: right;
     position: relative;
-    top: 0px;
+    top: 0;
     height: 100%;
     width: 210px;
     margin-left: 85px;
@@ -302,17 +305,11 @@ b{
     margin-left: 30px;
 }
 
-.signup-cont h3{
-    font-size: 1.125rem;
-    line-height: 1.5rem;    
-    font-family: helvetica, arial, sans-serif;
-}
-
 .signup-cont p{
     font-family: helvetica, arial, sans-serif;
     font-style: normal;
     font-weight: 500;
-    margin-left: 0px;
+    margin-left: 0;
     font-size: 0.8125rem;
     line-height: 1rem;
     color: rgb(102, 102, 102);
@@ -333,7 +330,7 @@ b{
     margin-top: 100px;
 }
 
-.editors-div h4{
+h5{
     font-family: helvetica, arial, sans-serif;
     font-size: 14px;
     margin: 15px 0; 
@@ -390,14 +387,15 @@ b{
 .bottom-content iframe{
     width: 600px;
     height: 358px;
+    border: 0;
 }
 
-.content-video h6{
+h6{
     font-size: 0.937rem;    
     line-height: 1.25rem;
     color: #666;
     font-family: georgia, "times new roman", times, serif;
-    margin: 5px 0 0 0;
+    display: inline;
 }
 
 .content-video p{
@@ -421,16 +419,8 @@ b{
     width: 720px;
 }
 
-.content-img h6,.content-img p{
+.content-img p{
     display: inline;
-}
-
-.content-img h6{
-    font-size: 0.937rem;    
-    line-height: 1.25rem;
-    color: #666;
-    font-family: georgia, "times new roman", times, serif;
-    margin: 5px 0 0 0;
 }
 
 .content-img p{
