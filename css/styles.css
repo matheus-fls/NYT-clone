@@ -8,6 +8,7 @@
     border-color: lightgray;
     border-style: solid;
     box-sizing: border-box;
+    z-index: 10;
 }
 
 .left-elements{
@@ -142,6 +143,7 @@
 .main-upper-division{
     width: 600px;
     margin-left: 300px;
+    display: inline-block;
 }
 
 .date-and-icons{
@@ -273,4 +275,96 @@ b{
 .row-2 .element-2{
     position: relative;
     top: 16px;
+}
+
+.side-div{
+    float: right;
+    position: relative;
+    top: 0px;
+    height: 100%;
+    width: 210px;
+    margin-left: 85px;
+}
+
+.side-div:after{
+    clear: right;
+}
+
+.signup-cont{
+    position: relative;
+    top: 0;
+    width: 180px;
+    margin-left: 30px;
+}
+
+.signup-cont h3{
+    font-size: 1.125rem;
+    line-height: 1.5rem;    
+    font-family: helvetica, arial, sans-serif;
+}
+
+.signup-cont p{
+    font-family: helvetica, arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 0px;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    color: rgb(102, 102, 102);
+}
+
+.signup-cont button{
+    width: 100%;
+    height: 35px;
+    background-color: rgb(98, 136, 165);
+    color: white;
+    font-weight: 700; 
+    border: 1px;
+    border-color: rgb(98, 136, 165);
+    border-radius: 4px;
+}
+
+.editors-div{
+    margin-top: 100px;
+}
+
+.editors-div h4{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 14px;
+    margin: 15px 0; 
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgb(226, 226, 226); 
+}
+
+.book-container{
+    width: 100%;
+}
+
+.book-img{
+    display: inline-block;
+    width: 75px;
+}
+
+.book-img img{
+    width: 100%;
+}
+
+.book-txt{
+    width: 120px;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 7px;
+}
+
+.book-txt a{
+    text-decoration: none;
+    color: black;
+}
+
+.book-txt a:hover{
+    text-decoration: underline;
 }
