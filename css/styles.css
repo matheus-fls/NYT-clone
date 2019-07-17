@@ -4,7 +4,7 @@
     height: 42px;
 	top: 0px;
 	background-color: #fff;
-    border: 1px;
+    border-bottom: 1px;
     border-color: lightgray;
     border-style: solid;
     box-sizing: border-box;
@@ -227,7 +227,7 @@
 
 .main-section-grid{
     width: 945px;
-    height: 575px;
+    
     margin: 0 auto;
     box-sizing: border-box;
 }
@@ -370,9 +370,76 @@ b{
     text-decoration: underline;
 }
 
+
 .img-credits span, .img-credits p{
     margin-top: 14px;
     font-family: arial, helvetica, sans-serif;
     font-weight: 500;
     font-size: .825rem;
+}
+
+.main-footer{
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    border-top: 1px solid #000000;
+    background-color: white; 
+    margin-top: 41px;
+}
+
+.subscribe-txt{
+    margin: 12px;
+    text-align: center;
+}
+
+.main-footer a{
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.foot-footer{
+    height: 35px;
+    width: 1200px;
+    border-top: 1px solid rgb(153, 153, 153);
+    margin: 42px auto;
+    position: relative;
+    text-align: center;
+}
+
+.foot-links{
+    margin-top: 12px;
+}
+
+.foot-links a{
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.foot-links a:hover{
+    text-decoration: underline;
+}
+
+.options-btn{
+    z-index: 11;
+    position: absolute;
+    right: 200px;
+    bottom: 9px;
+}
+
+.options-btn button{
+    background-color: white;
+    border: none;
+    font-weight: 700;
+}
+
+.fa-angle-up{
+    margin-left: 20px;
+    font-size: 20px;
 }
