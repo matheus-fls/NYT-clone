@@ -1,8 +1,11 @@
 .nav-bar{
-	position: fixed;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
     width: 100%;
     height: 42px;
-	top: 0;
+    top: 0;
+    padding: 0 120px;
 	background-color: #fff;
     border-bottom: 1px;
     border-color: lightgray;
@@ -12,13 +15,9 @@
 }
 
 .left-elements{
-	position: absolute;
+    display: inline-flex;
+    justify-content: flex-start;
     box-sizing: border-box;
-	left: 0;
-	right: 70%;
-    height: 100%;
-    padding-left: 30px;
-    padding-top: 10px; 
 }
 
 button{
@@ -36,6 +35,11 @@ button{
     color: black;
     font-weight: bolder;
     font-size: 14.25px;
+}
+
+.a-cont{
+    margin-top: 12px;
+    margin-left: 15px;
 }
 
 .author-div a{
@@ -139,13 +143,10 @@ button{
 }
 
 .center-elements{
-    box-sizing: border-box;
-    position: absolute;
-    height: 100%;
-	left: 30%;
-	right: 30%;
-    text-align: center;
-    padding-top: 10px; 
+
+    display: inline-flex;
+    justify-content: center;
+    margin: 10px auto;
 }
 
 .center-elements img{
@@ -154,11 +155,8 @@ button{
 
 .right-elements{
     box-sizing: border-box;
-    position: absolute;
-    height: 100%;
-    right: 0;
-    left: 70%;
-    text-align: right;
+    display: inline-flex;
+    
     padding-right: 30px;
     padding-top: 2px;
 }
@@ -181,7 +179,6 @@ button{
     margin-top: 40px;
     margin-bottom: 30px;
     box-sizing: border-box;
-
 }
 
 h1 {
@@ -190,6 +187,7 @@ h1 {
     font-size: 2.5rem;
     font-style: italic;
     line-height: 1.2;
+    letter-spacing: -1px;
 }
 
 .img-description{
