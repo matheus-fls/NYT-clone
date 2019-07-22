@@ -517,6 +517,12 @@ h6{
     color: gray;
 }
 
+.editors-div{
+    clear: left;
+    border-top: 1px black solid;
+    width: 800px;
+}
+
 .section-title{
     margin-bottom: 15px;
 }
