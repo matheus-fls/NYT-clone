@@ -492,6 +492,23 @@ h6{
     display: inline-block;
 }
 
+.related-section {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.more-div {
+    width: 800px;
+}
+
+.more-div-content {
+    width: 250px;
+    float: left;
+}
+
+.more-img img {width: 100%;}
+
+footer {clear: left;}
 
 .main-footer{
     height: 40px;
