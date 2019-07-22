@@ -506,6 +506,7 @@ h6{
     width: 250px;
     float: left;
     margin-bottom: 20px;
+
 }
 
 .mid-div-content{
@@ -527,6 +528,14 @@ h6{
     margin-bottom: 15px;
 }
 
+figcaption {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 1.125rem;
+    line-height: 1.5rem;    
+    font-family: helvetica, arial, sans-serif;
+}
+
 .related-section a{
     text-decoration: none;
     color: black;
@@ -545,8 +554,19 @@ h6{
     width: 100%;
 }
 
-footer {
+.popular-div {
+    width: 350px;
+    float: right;
     clear: left;
+    border-top: 1px solid #000000;
+}
+
+.popular-cont {
+    border-top: 1px solid gray;
+}
+
+footer {
+    clear: both;
 }
 
 .main-footer{
