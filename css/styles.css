@@ -569,6 +569,66 @@ footer {
     clear: both;
 }
 
+.leg-footer {
+    width: 1200px;
+    margin: 0 auto;
+    border-top: 2px double gray;
+}
+
+.top-foot-cont {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.logo-cont {
+    width: 250px;
+    float: left;
+}
+
+.logo-cont img {width: 185px;}
+
+.goHomePage {
+    float: right;
+    width: 250px;
+    text-align: right;
+}
+
+.goHomePage a {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.hair-leg-footer {
+    clear: both;
+    margin-top: 65px;
+    overflow: auto;
+}
+
+.topics-div {
+    float: left;
+    width: 190px;
+}
+
+.topics-div a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topics-div a:hover {
+    text-decoration: underline;
+}
+
+.footer-icon {
+    width: 14px;
+}
+
+.topics-div ul {
+    margin-top: 10px;
+}
+
 .main-footer{
     height: 40px;
     width: 100%;
@@ -585,6 +645,16 @@ footer {
     text-align: center;
 }
 
+.subscribe-div {
+    border-left: 1px solid gray;
+    padding-left: 15px;
+}
+
+.f-last-div {
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}
+
 .foot-footer{
     height: 35px;
     width: 1200px;
@@ -592,6 +662,7 @@ footer {
     margin: 42px auto;
     position: relative;
     text-align: center;
+    clear: left;
 }
 
 .foot-links{
