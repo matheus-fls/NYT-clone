@@ -506,9 +506,13 @@ h6{
     float: left;
 }
 
-.more-img img {width: 100%;}
+.more-img img {
+    width: 100%;
+}
 
-footer {clear: left;}
+footer {
+    clear: left;
+}
 
 .main-footer{
     height: 40px;
